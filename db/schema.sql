@@ -20,10 +20,7 @@ CREATE TABLE roles (
     title VARCHAR(30) NOT NULL,
     salary DECIMAL NOT NULL,
     department_id INT,
-    PRIMARY KEY(id),
-    FOREIGN KEY (movie_id)
-    REFERENCES movies(id)
-    ON DELETE SET NULL
+    FOREIGN KEY (department_id) REFERENCES departments(id)
     PRIMARY KEY(id)
 );
 
