@@ -20,11 +20,17 @@ VALUES (4, "Operations");
 INSERT INTO roles (id, title, salary, department_id)
 VALUES (1, "Product Controller", 90000, 1);
 
-INSERT INTO roles (id, department_name)
-VALUES (2, "Software Engineer", 115000, 2);
+INSERT INTO roles (id, title, salary, department_id)
+VALUES (2, "Legal Entity Controller", 95000, 1);
 
 INSERT INTO roles (id, department_name)
-VALUES (3, "General Counsel", 180000, 3);
+VALUES (3, "Software Engineer", 115000, 2);
 
 INSERT INTO roles (id, department_name)
-VALUES (4, "Risk Ops", 85000, 4);
+VALUES (4, "Senior Software Engineer", 135000, 2);
+
+INSERT INTO roles (id, department_name)
+VALUES (5, "General Counsel", 180000, 3);
+
+INSERT INTO roles (id, department_name)
+VALUES (6, "Risk Ops", 85000, 4);
