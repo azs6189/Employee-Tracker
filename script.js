@@ -1,6 +1,6 @@
 'use strict';
 
-// Dependencies
+// Dependencies listed below
 const inquirer = require("inquirer")
 const mysql = require("mysql2")
 const cTable = require('console.table');
@@ -10,7 +10,7 @@ const connection = mysql.createConnection({
     port: 3001,
     user: "root",
     password: "sparklinglife",
-    database: "employee_db"
+    database: "employee_trackerDB"
   });
 
 

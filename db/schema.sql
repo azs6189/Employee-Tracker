@@ -1,16 +1,16 @@
 -- Drops the employees_db --
-DROP DATABASE IF EXISTS employee_db;
+DROP DATABASE IF EXISTS employee_trackerDB;
 
 -- Creates the "employees_db" database if it exists currently --
-CREATE DATABASE employee_db;
+CREATE DATABASE employee_trackerDB;
 
 -- Use employees_db database --
-USE employee_db;
+USE employee_trackerDB;
 
 -- Creates the table "departments" within employees_db --
 CREATE TABLE department (
     id INT NOT NULL AUTO_INCREMENT,
-    department_name VARCHAR(30) NOT NULL,
+    name VARCHAR(30) NOT NULL,
     PRIMARY KEY (id)
 );
 

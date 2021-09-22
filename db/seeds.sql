@@ -1,55 +1,54 @@
 -- Use employees_db database --
-USE employees_db;
+USE employee_trackerDB;
 
 -- Inserts new records in a table --
 
 -- Department table Seeds --
-INSERT INTO departments (id, department_name)
-VALUES (1, "Controllers");
+INSERT INTO department (name)
+VALUES ("Controllers");
 
-INSERT INTO departments (id, department_name)
-VALUES (2, "Engineering");
+INSERT INTO department (name)
+VALUES ("Engineering");
 
-INSERT INTO departments (id, department_name)
-VALUES (3, "Legal");
+INSERT INTO department (name)
+VALUES ("Legal");
 
-INSERT INTO departments (id, department_name)
-VALUES (4, "Operations");
+INSERT INTO department (name)
+VALUES ("Operations");
 
--- Roles table Seeds --
-INSERT INTO roles (id, title, salary, department_id)
-VALUES (1, "Product Controller", 90000, 1);
+-- Role table Seeds --
+INSERT INTO role (title, salary, department_id)
+VALUES ("Product Controller", 90000, 1);
 
-INSERT INTO roles (id, title, salary, department_id)
-VALUES (2, "Legal Entity Controller", 95000, 1);
+INSERT INTO role (title, salary, department_id)
+VALUES ("Legal Entity Controller", 95000, 1);
 
-INSERT INTO roles (id, department_name)
-VALUES (3, "Software Engineer", 115000, 2);
+INSERT INTO role (title, salary, department_id)
+VALUES ("Software Engineer", 115000, 2);
 
-INSERT INTO roles (id, department_name)
-VALUES (4, "Senior Software Engineer", 135000, 2);
+INSERT INTO role (title, salary, department_id)
+VALUES ("Senior Software Engineer", 135000, 2);
 
-INSERT INTO roles (id, department_name)
-VALUES (5, "General Counsel", 180000, 3);
+INSERT INTO role (title, salary, department_id)
+VALUES ("General Counsel", 180000, 3);
 
-INSERT INTO roles (id, department_name)
-VALUES (6, "Risk Ops", 85000, 4);
+INSERT INTO role (title, salary, department_id)
+VALUES ("Risk Ops", 85000, 4);
 
 -- Employee table Seeds --
-INSERT INTO employee (id, first_name, last_name, role_id, manager_id)
-VALUES (1, "Product Controller", 90000, 1);
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
+VALUES ("Allie", "Soliz", 1, 1);
 
-INSERT INTO employee (id, title, salary, department_id)
-VALUES (2, "Legal Entity Controller", 95000, 1);
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
+VALUES ("John", "Doe", 2, 2);
 
-INSERT INTO employee (id, department_name)
-VALUES (3, "Software Engineer", 115000, 2);
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
+VALUES ("Rachel", "Zhao", 3, 3);
 
-INSERT INTO employee (id, department_name)
-VALUES (4, "Senior Software Engineer", 135000, 2);
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
+VALUES ("Susan", "Carter", 4, 4);
 
-INSERT INTO employee (id, department_name)
-VALUES (5, "General Counsel", 180000, 3);
-
-INSERT INTO employee (id, department_name)
-VALUES (6, "Risk Ops", 85000, 4);
+-- select all from tables
+SELECT * FROM department;
+SELECT * FROM role;
+SELECT * FROM employee;
