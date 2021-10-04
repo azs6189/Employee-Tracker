@@ -54,8 +54,20 @@ After cloning the repository to your computer, follow the next steps:
    ```
 
    g. Select all the fields available in the department table.
-   SELECT \* from department;
 
    ```bash
-   SELECT \* from department;
+   select * from department;
+   ```
+
+5. In Terminal 2, type the syntax below.
+   a. Install the dependencies.
+
+   ```bash
+   npm install
+   ```
+
+   b. Run the application
+
+   ```bash
+   node server.js
    ```
