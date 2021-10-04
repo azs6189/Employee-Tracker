@@ -78,4 +78,4 @@ After cloning the repository to your computer, follow the next steps:
 Link to [Employee-Tracker GIF]
 (https://github.com/azs6189/Employee-Tracker/blob/main/Employee%20Tracker%20GIF.gif)
 
-![alt text](./gif/Employee-Tracker.gif)
+![alt text](./Employee-Tracker.gif)
