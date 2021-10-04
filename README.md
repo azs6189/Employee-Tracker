@@ -7,6 +7,7 @@
 - [Description](#description)
 - [Instalation](#installation)
 - [Usage](#usage)
+- [Video](#video)
 
 ## Description
 
@@ -71,3 +72,10 @@ After cloning the repository to your computer, follow the next steps:
    ```bash
    node server.js
    ```
+
+## Video
+
+Link to [Employee-Tracker GIF]
+(https://github.com/azs6189/Employee-Tracker/blob/main/Employee%20Tracker%20GIF.gif)
+
+![alt text](./gif/Employee-Tracker.gif)
