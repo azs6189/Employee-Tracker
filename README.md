@@ -18,3 +18,11 @@ First, ensure node.js is installed on your computer.
 Next, clone this repository. Open the repository in a code editory such as VS Code.
 
 ## Usage
+
+After cloning the repository to your computer, follow the next steps:
+
+1. Open Employee-Tracker repository in VS Code
+
+2. Open Terminal
+
+3. Split Terminal so that you have two terminals displayed in VS Code side by side.
