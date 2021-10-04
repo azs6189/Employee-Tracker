@@ -26,3 +26,20 @@ After cloning the repository to your computer, follow the next steps:
 2. Open Terminal
 
 3. Split Terminal so that you have two terminals displayed in VS Code side by side.
+
+4. In Terminal 1, type the syntax below
+   a. Begin MYSQL login
+
+   ```bash
+   mysql -u root -p
+   ```
+
+   b. Enter your MYSQL password
+   c. source db/schema.sql
+   d. source db/seeds.sql
+   f. show tables;
+   g. SELECT \* from department;
+
+   ```
+
+   ```
