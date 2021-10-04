@@ -27,19 +27,35 @@ After cloning the repository to your computer, follow the next steps:
 
 3. Split Terminal so that you have two terminals displayed in VS Code side by side.
 
-4. In Terminal 1, type the syntax below
+4. In Terminal 1, type the syntax below.
    a. Begin MYSQL login
 
    ```bash
    mysql -u root -p
    ```
 
-   b. Enter your MYSQL password
-   c. source db/schema.sql
-   d. source db/seeds.sql
-   f. show tables;
-   g. SELECT \* from department;
+   b. Enter your MYSQL password.
+   c. Execute schema.sql query.
 
+   ```bash
+   source db/schema.sql
    ```
 
+   d. Execute seeds.sql query.
+
+   ```bash
+   source db/seeds.sql
+   ```
+
+   f. List the tables in employeetracker_db.
+
+   ```bash
+   show tables;
+   ```
+
+   g. Select all the fields available in the department table.
+   SELECT \* from department;
+
+   ```bash
+   SELECT \* from department;
    ```
